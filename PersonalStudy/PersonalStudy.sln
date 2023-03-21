@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "002, 003강. 자료형, 정
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "006강. 증감연산자", "006강. 증감연산자\006강. 증감연산자.vcxproj", "{FDA6BE0B-8667-4236-803E-DF53D892DA19}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "011강. 비트연산자(2)", "011강. 비트연산자(2)\011강. 비트연산자(2).vcxproj", "{253EB589-3C26-49B1-8989-D25BD0D45B8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{FDA6BE0B-8667-4236-803E-DF53D892DA19}.Release|x64.Build.0 = Release|x64
 		{FDA6BE0B-8667-4236-803E-DF53D892DA19}.Release|x86.ActiveCfg = Release|Win32
 		{FDA6BE0B-8667-4236-803E-DF53D892DA19}.Release|x86.Build.0 = Release|Win32
+		{253EB589-3C26-49B1-8989-D25BD0D45B8D}.Debug|x64.ActiveCfg = Debug|x64
+		{253EB589-3C26-49B1-8989-D25BD0D45B8D}.Debug|x64.Build.0 = Debug|x64
+		{253EB589-3C26-49B1-8989-D25BD0D45B8D}.Debug|x86.ActiveCfg = Debug|Win32
+		{253EB589-3C26-49B1-8989-D25BD0D45B8D}.Debug|x86.Build.0 = Debug|Win32
+		{253EB589-3C26-49B1-8989-D25BD0D45B8D}.Release|x64.ActiveCfg = Release|x64
+		{253EB589-3C26-49B1-8989-D25BD0D45B8D}.Release|x64.Build.0 = Release|x64
+		{253EB589-3C26-49B1-8989-D25BD0D45B8D}.Release|x86.ActiveCfg = Release|Win32
+		{253EB589-3C26-49B1-8989-D25BD0D45B8D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
