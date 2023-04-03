@@ -54,6 +54,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "029강. 포인터 문제 �
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "022강. 지역 변수, 전역 변수", "022강. 지역 변수, 전역 변수\022강. 지역 변수, 전역 변수.vcxproj", "{D3336DBA-112B-4069-B331-7DE31BF37569}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "023강. 분할구현", "023강. 분할구현\023강. 분할구현.vcxproj", "{0862028C-ED8A-40D7-B8C3-6C73DEE9FD7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "024강. 분할 구현의 문제점", "024강. 분할 구현의 문제점\024강. 분할 구현의 문제점.vcxproj", "{9A96574B-8700-46A6-9797-F5757411C528}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -246,6 +250,22 @@ Global
 		{D3336DBA-112B-4069-B331-7DE31BF37569}.Release|x64.Build.0 = Release|x64
 		{D3336DBA-112B-4069-B331-7DE31BF37569}.Release|x86.ActiveCfg = Release|Win32
 		{D3336DBA-112B-4069-B331-7DE31BF37569}.Release|x86.Build.0 = Release|Win32
+		{0862028C-ED8A-40D7-B8C3-6C73DEE9FD7B}.Debug|x64.ActiveCfg = Debug|x64
+		{0862028C-ED8A-40D7-B8C3-6C73DEE9FD7B}.Debug|x64.Build.0 = Debug|x64
+		{0862028C-ED8A-40D7-B8C3-6C73DEE9FD7B}.Debug|x86.ActiveCfg = Debug|Win32
+		{0862028C-ED8A-40D7-B8C3-6C73DEE9FD7B}.Debug|x86.Build.0 = Debug|Win32
+		{0862028C-ED8A-40D7-B8C3-6C73DEE9FD7B}.Release|x64.ActiveCfg = Release|x64
+		{0862028C-ED8A-40D7-B8C3-6C73DEE9FD7B}.Release|x64.Build.0 = Release|x64
+		{0862028C-ED8A-40D7-B8C3-6C73DEE9FD7B}.Release|x86.ActiveCfg = Release|Win32
+		{0862028C-ED8A-40D7-B8C3-6C73DEE9FD7B}.Release|x86.Build.0 = Release|Win32
+		{9A96574B-8700-46A6-9797-F5757411C528}.Debug|x64.ActiveCfg = Debug|x64
+		{9A96574B-8700-46A6-9797-F5757411C528}.Debug|x64.Build.0 = Debug|x64
+		{9A96574B-8700-46A6-9797-F5757411C528}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A96574B-8700-46A6-9797-F5757411C528}.Debug|x86.Build.0 = Debug|Win32
+		{9A96574B-8700-46A6-9797-F5757411C528}.Release|x64.ActiveCfg = Release|x64
+		{9A96574B-8700-46A6-9797-F5757411C528}.Release|x64.Build.0 = Release|x64
+		{9A96574B-8700-46A6-9797-F5757411C528}.Release|x86.ActiveCfg = Release|Win32
+		{9A96574B-8700-46A6-9797-F5757411C528}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
