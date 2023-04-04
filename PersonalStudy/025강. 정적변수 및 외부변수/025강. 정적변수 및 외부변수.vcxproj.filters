@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="025강. 정적변수 및 외부변수.cpp" />
+    <ClCompile Include="Function.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Function.h" />
+    <ClInclude Include="Common.h" />
+  </ItemGroup>
+</Project>
