@@ -21,6 +21,13 @@ int main()
 		// ex)
 		int* pInt = (int*)&Value;
 		*pInt = 300;
+		// 그냥 이렇게 하면 Value가 100이 나오긴 함
+		// 이는 visual studio의 최적화 때문에 그런 것임
+		// 실제로는 Value의 공간에는 300이라는 값이 들어가 있음
+		// volatile const int Value = 100; << volatile 은 레지스터 최적화를 안한다는 뜻임
+		// 이렇게 선언하면 300이 출력됨
 		printf_s("Value : %d\n", Value);
+
+		// 참고) volatile(휘발성) 키워드를 붙이면 cpu가 연산시 레지스터 메모리를 사용하지 못하게 만듦
 	}
 }
