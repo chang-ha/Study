@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="040강. 구조체 포인터.cpp" />
+    <ClCompile Include="043강. 가변배열.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arr.h" />
   </ItemGroup>
 </Project>
