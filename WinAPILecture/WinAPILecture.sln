@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1~2강. Win32API기본", "1~2강. Win32API기본\1~2강. Win32API기본.vcxproj", "{B38D1C07-B91C-4271-BB76-1B6F24BC888D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3~4강. Win32API 핸들, DC, 윈도우 이벤트", "3~4강. Win32API 핸들, DC, 윈도우 이벤트\3~4강. Win32API 핸들, DC, 윈도우 이벤트.vcxproj", "{44A1D72C-AA65-447C-8F1D-8E3750EE34E3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5~6강. Win32APIPeekMessage", "5~6강. Win32APIPeekMessage\5~6강. Win32APIPeekMessage.vcxproj", "{1961645E-43C8-4EC5-8A4C-9089282D8372}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7~9강. Core클래스 및 Singleton", "7~9강. Core클래스 및 Singleton\7~9강. Core클래스 및 Singleton.vcxproj", "{74275EB9-121E-4679-8AB0-2854F1A5B573}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{2FDA0178-0C07-491E-91DE-B55149C540C0}"
+	ProjectSection(SolutionItems) = preProject
+		미리 컴파일된 헤더.txt = 미리 컴파일된 헤더.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B38D1C07-B91C-4271-BB76-1B6F24BC888D}.Debug|x64.ActiveCfg = Debug|x64
+		{B38D1C07-B91C-4271-BB76-1B6F24BC888D}.Debug|x64.Build.0 = Debug|x64
+		{B38D1C07-B91C-4271-BB76-1B6F24BC888D}.Debug|x86.ActiveCfg = Debug|Win32
+		{B38D1C07-B91C-4271-BB76-1B6F24BC888D}.Debug|x86.Build.0 = Debug|Win32
+		{B38D1C07-B91C-4271-BB76-1B6F24BC888D}.Release|x64.ActiveCfg = Release|x64
+		{B38D1C07-B91C-4271-BB76-1B6F24BC888D}.Release|x64.Build.0 = Release|x64
+		{B38D1C07-B91C-4271-BB76-1B6F24BC888D}.Release|x86.ActiveCfg = Release|Win32
+		{B38D1C07-B91C-4271-BB76-1B6F24BC888D}.Release|x86.Build.0 = Release|Win32
+		{44A1D72C-AA65-447C-8F1D-8E3750EE34E3}.Debug|x64.ActiveCfg = Debug|x64
+		{44A1D72C-AA65-447C-8F1D-8E3750EE34E3}.Debug|x64.Build.0 = Debug|x64
+		{44A1D72C-AA65-447C-8F1D-8E3750EE34E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{44A1D72C-AA65-447C-8F1D-8E3750EE34E3}.Debug|x86.Build.0 = Debug|Win32
+		{44A1D72C-AA65-447C-8F1D-8E3750EE34E3}.Release|x64.ActiveCfg = Release|x64
+		{44A1D72C-AA65-447C-8F1D-8E3750EE34E3}.Release|x64.Build.0 = Release|x64
+		{44A1D72C-AA65-447C-8F1D-8E3750EE34E3}.Release|x86.ActiveCfg = Release|Win32
+		{44A1D72C-AA65-447C-8F1D-8E3750EE34E3}.Release|x86.Build.0 = Release|Win32
+		{1961645E-43C8-4EC5-8A4C-9089282D8372}.Debug|x64.ActiveCfg = Debug|x64
+		{1961645E-43C8-4EC5-8A4C-9089282D8372}.Debug|x64.Build.0 = Debug|x64
+		{1961645E-43C8-4EC5-8A4C-9089282D8372}.Debug|x86.ActiveCfg = Debug|Win32
+		{1961645E-43C8-4EC5-8A4C-9089282D8372}.Debug|x86.Build.0 = Debug|Win32
+		{1961645E-43C8-4EC5-8A4C-9089282D8372}.Release|x64.ActiveCfg = Release|x64
+		{1961645E-43C8-4EC5-8A4C-9089282D8372}.Release|x64.Build.0 = Release|x64
+		{1961645E-43C8-4EC5-8A4C-9089282D8372}.Release|x86.ActiveCfg = Release|Win32
+		{1961645E-43C8-4EC5-8A4C-9089282D8372}.Release|x86.Build.0 = Release|Win32
+		{74275EB9-121E-4679-8AB0-2854F1A5B573}.Debug|x64.ActiveCfg = Debug|x64
+		{74275EB9-121E-4679-8AB0-2854F1A5B573}.Debug|x64.Build.0 = Debug|x64
+		{74275EB9-121E-4679-8AB0-2854F1A5B573}.Debug|x86.ActiveCfg = Debug|Win32
+		{74275EB9-121E-4679-8AB0-2854F1A5B573}.Debug|x86.Build.0 = Debug|Win32
+		{74275EB9-121E-4679-8AB0-2854F1A5B573}.Release|x64.ActiveCfg = Release|x64
+		{74275EB9-121E-4679-8AB0-2854F1A5B573}.Release|x64.Build.0 = Release|x64
+		{74275EB9-121E-4679-8AB0-2854F1A5B573}.Release|x86.ActiveCfg = Release|Win32
+		{74275EB9-121E-4679-8AB0-2854F1A5B573}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29430987-CCEA-41A5-9A23-9B7B37B08775}
+	EndGlobalSection
+EndGlobal
