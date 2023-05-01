@@ -38,8 +38,8 @@ public:
 	static void Release()
 	{
 		// 그럼 어떻게 할까??
-		// 위의 함수를 호출하면 pCore주소값을 받을 수 있음
-		//CCore* p = GetInstance();
+		// 위의 함수(GetInstance)를 호출하면 pCore주소값을 받을 수 있음 (return값이 pCore의 주소값으로 되어있기 때문 << 현재는 싱글톤으로 수정함)
+		// CCore* p = GetInstance();
 		// 이렇게 짜면 문제가 발생함
 		// 만약 GetInstance()로 pCore 하나의 변수를 만들어 사용하다가
 		// Release()를 호출해서 지운후 다시 필요해서 다시 GetInstance()를 호출하면

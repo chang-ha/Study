@@ -1,6 +1,6 @@
 #pragma once
 // 정적멤버를 데이터영역에 올려서 쓰는 방법
-#include "define.h"
+#include "pch.h"
 
 class CCore
 {

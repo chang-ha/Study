@@ -40,6 +40,19 @@ void PushBack(tLinkedList* _pList, int _iData)
 	++_pList->iCount;
 }
 
+void PushFront(tLinkedList* _pList, int _iData)
+{
+	// 새로 힙메모리에 할당한 pNewNode의 다음노드를 기존헤드 노드로 지정한다.
+	tNode* pNewNode = (tNode*)malloc(sizeof(tNode));
+	pNewNode->iData = _iData;
+	pNewNode->pNextNode = _pList->pHeadNode;
+
+	// 리스트의 헤드노드를 새로 할당한 pNewNode로 지정한다
+	_pList->pHeadNode = pNewNode;
+	++_pList->iCount;
+}
+
+
 // 재귀함수버전
 // "좋은 방법은 아님" << 스택메모리가 크지 않기 때문에 터져버림
 //void Release(tNode* _pNode)
